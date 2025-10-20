@@ -30,10 +30,6 @@ export default function StatusPage() {
               height={120}
               className={styles.logoImage}
               priority
-              onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'flex';
-              }}
             />
             <div className={styles.logoPlaceholder}>
               <div className={styles.logoText}>
